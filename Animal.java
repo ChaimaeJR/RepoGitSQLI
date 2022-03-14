@@ -4,13 +4,13 @@ public class Animal {
         return "Hello";
     }
 
-    public static String getCatGreeting(){
-        return "Meow";
+    public static String getBirdGreeting(){
+        return "Bird";
     }
 
     public static void main(String[] args) {
         String value = args[0];
-        if (value.equalsIgnoreCase("cat"))
-            System.out.println(getCatGreeting());
+        if (value.equalsIgnoreCase("bird"))
+            System.out.println(getBirdGreeting());
     }
 }
